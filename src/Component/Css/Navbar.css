@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(0 0 0 / 76%);
+}
+nav ul{
+    display: flex;
+    margin-left: 50vw;
+}
+
+nav ul li{
+    margin-top: 19px;
+    list-style: none;
+    margin-left: 31px;
+   
+    text-align: center;
+   
+}
+nav ul li a:hover{
+    background-color: white;
+}
+
+.logo {
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+nav ul li a {
+    width: 86px;
+    height: 32px;
+    padding: 3px 15px;
+    color: white;
+    border-radius: 14px;
+    text-decoration: none;
+font-size: 25px;
+}
+nav ul li a:hover{
+    color: black;
+    }

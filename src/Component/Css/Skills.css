@@ -1,0 +1,46 @@
+  .language{
+      margin-top: 40px;
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+      padding: 20px 20px;
+      background-color: whitesmoke;
+  }
+  .language h1{
+      margin-bottom: 20px;
+      font-size: 35px;
+  }
+  .items p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .items img{
+      margin-top: 20px;
+      height: 100px;
+      width: auto;
+  }
+  .items{
+      display: flex;
+      margin-left: -10px;
+  }
+  .img{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-left: 100px;
+  }
+  
+.skill {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 50vw;
+    background-color: black;
+    color: white;
+    margin-left: 25vw;
+    border-radius: 10px;
+}
