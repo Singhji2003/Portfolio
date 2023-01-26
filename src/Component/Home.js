@@ -5,16 +5,6 @@ export default class Home extends Component {
     return (
       <div>
         <div className="home">
-    <img src={require("./Image/show.png")} onClick={()=>{
-       document.getElementById("nav").style.marginTop = "0px";
-       document.getElementById("show").style.display = "none"
-       document.getElementById("hide").style.display = "block"
-    }} id="show" width="70px" className="navres" alt=""/>
-    <img src={require("./Image/hide.png")} onClick={()=>{
-       document.getElementById("nav").style.marginTop = "-920px";
-       document.getElementById("hide").style.display = "none"
-       document.getElementById("show").style.display = "block"
-    }} id="hide" width="70px" className="navres" alt=""/>
 <section>
     <div className="img">
     <img src={require("./Image/arpan.png")} width="200px" alt=""/>

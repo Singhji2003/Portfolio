@@ -28,5 +28,37 @@
     }
 }
 @media screen and (max-width: 660px) {
-    
+    #show{
+        display: block;
+    }
+    nav{
+        margin-top: -280px;
+        height: 350px;
+        position: absolute;
+        width: 100vw;
+        transition: .5s;
+    }
+    .img img {
+        margin-top: 85px;
+    }
+    nav ul{
+        display: block;
+        margin-top: 90px;
+        z-index: 5;
+    }
+    .logo h1{
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width:464px) {
+    .social-media {
+        margin-left: 20vw;
+    }
+    .img img{
+        margin-left: -30px;
+    }
+    .home{
+        height: 850px;
+    }
 }

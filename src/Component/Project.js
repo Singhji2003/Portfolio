@@ -25,16 +25,16 @@ export default class Project extends Component {
             <div className="para">
             <div className="para">
             <p>This website is made by pure React Js and in this you can change your text as per your choice. And also it has many fuctionality to do.</p></div>
-            <button id="github">View on GitHub </button>
+            <button id="github"><a rel="noreferrer" href="https://singhji2003.github.io/TextUtils/" target = "_blank">View on GitHub </a> </button>
         </div>
         <div className="item-2 item">
-             <div className="img"><img src={require("./Image/textutils.PNG" )}alt=""/></div>
-            <h1>TextUtils </h1>
+             <div className="img"><img src={require("./Image/youtube.PNG" )}alt=""/></div>
+            <h1>Youtube Clone </h1>
             <div className="logo"><img src={require("./Image/react.png")} alt=""/></div>
             <div className="para">
             <div className="para">
-            <p>This website is made by pure React Js and in this you can change your text as per your choice. And also it has many fuctionality to do.</p></div>
-            <button id="github">View on GitHub </button>
+            <p>This website is only for practice purpose in which I fetch data from api and show the results.</p></div>
+            <button id="github"><a rel="noreferrer" href="https://singhji2003.github.io/LiveVideos" target = "_blank">View on GitHub </a> </button>
         </div>    
     </div>
     </div>

@@ -26,7 +26,7 @@
     border: 2px solid black;
     height: 500px;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 150px;
     width: 450px;
     border-radius: 20px;
 }
@@ -36,14 +36,14 @@
 }
 .item img{
     width: 380px;
-    position: relative;
+    /* position: relative; */
     left: -47px;
     top: -22px;
 }
 .logo img {
     width: 50px;
     height:50px;
-    margin-top: 283px;
+    margin-top: 223px;
     margin-left: 20px;
 }
 .item button{
@@ -90,4 +90,13 @@
 }
 .last{
     margin-top: 20px;
+}
+.img img{
+margin-top: 25px;
+text-align: center;
+margin-left: -93px;
+}
+.project{
+    position: absolute;
+    margin-top: 40px;
 }

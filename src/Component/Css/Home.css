@@ -56,16 +56,6 @@
     .button button a:hover{
         color: black;
     }
-    .navres{
-        position: absolute;
-        display: flex;
-        margin-left: 332px; 
-        margin-top: -46px;
-        display: none;
-    }
+
     
-    #hide{
-        margin-top: -58px;
-        display: none;
-    }
     

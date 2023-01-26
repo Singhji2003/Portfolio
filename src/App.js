@@ -2,6 +2,7 @@ import Home from "./Component/Home";
 import Project from "./Component/Project";
 import Skills from "./Component/Skills";
 import Navbar from "./Component/Navbar";
+import "./Component/Css/Responsive.css"
 import {
   BrowserRouter as Router,
   Routes,
